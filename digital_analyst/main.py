@@ -1,4 +1,4 @@
-from scraper import parse_sitemap, extract_text
+from digital_analyst.scraper import parse_sitemap, extract_text
 
 def main():
     sitemap_url = input("Enter the sitemap URL: ")
