@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 
 def parse_sitemap(sitemap_url):
     response = requests.get(sitemap_url)
